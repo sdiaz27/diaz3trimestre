@@ -18,9 +18,9 @@
 input{
   outline: none;
   box-sizing: border-box;
-  height: 60px;
+  height: 30px;
   width: 0;
-  padding: 0 20px;
+  padding: 0 10px;
   color: #000;
   border-radius: 50px;
   font-size: 20px;
@@ -34,10 +34,10 @@ input{
   position: absolute;
   right: 0;
   top: 0;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
   background: #D50000;
-  line-height: 60px;
+  line-height: 40px;
   border-radius: 50%;
   text-align: center;
   cursor:pointer;
@@ -54,7 +54,7 @@ input{
 .btn i{
   font-size: 25px;
   color: #fff;
-  line-height: 80px;
+  line-height: 40px;
   transition: all .7s ease;
   -webkit-transition: all .7s ease;
   -moz-transition: all .7s ease;
