@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TALLEN TRCK</title>
-    <link rel="stylesheet" href="/talhumano/css/inicio_SIN.css">
+    <link rel="stylesheet" href="/talhumano/css/registroEM.css">
 </head>
 <body>
     <header class="glass_effect">
@@ -13,16 +13,20 @@
                 <a href="#">Inicio</a>
                 <a href="#">Contacto</a>
                 <a href="#">Conocenos</a>
-                <button class="btnlogin-popup">Registrate</button>
+                <button class="btnlogin-popup" onclick="location.href='inicio.html'">Iniciar sesión</button>
             </nav>
     </header>
 
 
 
     <div class="glass_effec">
-        <div class="form-box login">
-            <h2>INICIO SESIÓN</h2>
+        <div class="form-box register">
+            <h2>REGISTRO EMPRESA</h2>
             <form>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required placeholder="Nombre">
+                </div>
                 <div class="input-box">
                     <span class="icon"><ion-icon name="mail"></ion-icon></span>
                     <input type="email" required placeholder="Correo">
@@ -32,11 +36,11 @@
                     <input type="password" required placeholder="Contraseña">
                 </div>
                 <div class="ingat">
-                    <label><input type="checkbox">Recordar contraseña</label>
+                    <label><input type="checkbox">Acepto politicas y condiciones</label>
                 </div>
-                <button type="submit" class="btn">INICIAR</button>
+                <button type="submit" class="btn">REGISTRASE</button>
                 <div class="login-register">
-                    <p>¿No te has registrado? <a href="#" class="login-link">REGISTRATE</a></p>
+                    <p>¿Ya tienes una cuenta? <a href="#" class="login-link">INICIA SESIÓN</a></p>
                 </div>
             </form>
         </div>
