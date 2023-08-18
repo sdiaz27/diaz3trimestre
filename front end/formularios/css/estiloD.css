@@ -1,0 +1,13 @@
+div{
+  background-color: red;
+}
+
+.span1{
+  background-color: aquamarine;
+  display: inline-block;
+
+}
+.span2{
+  background-color: aquamarine;
+  float: right;
+}

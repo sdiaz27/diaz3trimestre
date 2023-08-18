@@ -1,0 +1,31 @@
+h1{
+  color: red;
+}
+
+p{
+  color: blue;
+  font-size: 16pt;
+}
+
+#no1{
+  color:green;
+  font-size: 12pt;
+}
+
+#no2{
+  font-size: 10pt;
+}
+
+.encavesado{
+  font-size: 24pt;
+  text-transform: uppercase;
+}
+
+*.warnig{
+  color: red;
+}
+
+.autor, .ubicasion, .fecha{
+  text-decoration: underline;
+}
+
