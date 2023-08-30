@@ -1,0 +1,51 @@
+<h1>Frontend programmer</h1>
+  </div>
+  <div>
+    <h2>Designs</h2>
+  </div>
+  <p>
+    Mis diseños son obras, sacada de mi pensamiento 
+    <br> segun los requerimientos puestos. 
+    <br> Me gusta mucho la imaginasiond de un diseño 
+    <br> y hacerlo en tres fases 
+    <br> 1: elplanimiento mental me yuda a imaginar 
+    <br> variedades de diseños para aplicar. 
+    <br> 2: El plasmado en papel meayuda a corregir
+    <br> errores de diseños.
+    <br> 3: Por ultimo la maquetacion en aplicasiones 
+    <br> corrige y da retoques de formas, estructura y 
+    <br> colores y con esto puedo tener una buena gama 
+    <br> de colores   
+  </p>
+  <div>
+    <h2>Projevts</h2>
+    <p>
+      contal system 
+    </p>
+  </div>
+  <div>
+    <h2>Studies</h2>
+    bachiller
+    <br> tecnico: desarrollo de software 
+  </div>
+  <div>
+    <h2>Mission</h2>
+    <p>
+      aprender el desarrollo en la wed, centrado en 
+      <br> ux and frontend. Relacionarme con otras herramientas 
+      <br> que apoyen mi trabajo y con esto poder brindar un 
+      <br> mejor desarrollo. 
+    </p>
+  </div>
+  <div>
+    <h2>Vision</h2>
+    <p>
+      Realizar la ingenieria en programacion en un periodo de 
+      <br> timpo de 3 años apartir del 2025 y durante este timpo 
+      <br> tomar mas conocimientos y ponerlos en practica para 
+      <br> brindar mas obcciones de desarrollo wed.
+    </p>
+  </div>
+  <div>
+    <img src="../mokat/img/bancol.jpg"/>
+  </div>
