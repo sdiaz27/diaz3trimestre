@@ -1,6 +1,7 @@
-bars = document.querySelector(".bars");
+const bars = document.querySelector(".bars");
+const navbar = document.querySelector(".nav-bar");
 
-bars.onclick = function() {
-  nav = document.querySelector(".nav-bar");
-  nav.classlist.toggle("active")
-}
+bars.addEventListener("click", () =>{
+  bars.classList.toggle("active");
+  navbar.classList.toggle("active");
+})
