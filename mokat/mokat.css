@@ -20,7 +20,7 @@ header{
 .logo{
   font-size: 28px;
   font-weight:bold ;
-  height: 80%;
+  height: 100%;
 }
 
 .bars{
@@ -51,8 +51,7 @@ header{
   background-color: #ffe00e;
 }
 
-@media(max-whidth:900px) {
-
+@media (max-width:900px) {
   header{
     padding: 0px 30px;
   }
@@ -62,39 +61,47 @@ header{
     cursor: pointer;
   }
 
-  .bars .line {
+  .bars .line{
     width: 30px;
     height: 3px;
     background-color: #fff;
     margin: 6px 0px;
   }
 
-  .nav-bar {
+  .nav-bar{
     height: 0px;
     position: absolute;
-    top: 80px;
+    top: 0;
     left: 0;
     right: 0;
     width: 100vw;
     background-color: #2e2f34;
     transition: 0.5s;
-    overflow: hidden;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    overflow:hidden ;
   }
 
   .nav-bar.active{
     height: 450px;
   }
 
-  .nav-bar ul{ 
+  .nav-bar ul{
     display: block;
     width: fit-content;
-    margin: 80px auto 0px auto;
+    margin: 80px auto 0 auto;
     text-align: center;
-    transition: 0.5s;
+    transition: 0.5;
+    -webkit-transition: 0.5;
+    -moz-transition: 0.5;
+    -ms-transition: 0.5;
+    -o-transition: 0.5;
     opacity: 0;
   }
 
-  .nav-bar.nav-bar.active ul{
+  .nav-bar.active ul {
     opacity: 1;
   }
 
