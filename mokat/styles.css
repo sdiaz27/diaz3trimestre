@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #092236;
+    overflow: hidden;
+}
+
+nav {
+    background: #021222;
+    height: 80px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1700px;
+    line-height: 80px;
+    z-index: 100;
+}
+
+.container-logo {
+    z-index: 100;
+    cursor: pointer;
+    font-family: 'Rubik Iso', cursive;
+}
+
+.container-logo h2 {
+    color: #95bdd8;
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-family: 'Rubik Iso', cursive;
+}
+
+.container-logo h2 span {
+    color: #0590ec;
+    font-weight: 700;
+    font-family: 'Rubik Iso', cursive;
+}
+
+.links .link {
+    display: inline-block ;
+    
+}
+
+.links .link a {
+    text-decoration: none;
+    color: #d1faf4;
+    font-size: 20px;
+    margin: 0 25px;
+    letter-spacing: 3px;
+    transition: .3s;
+}
+
+.links .link a:hover {
+    color: #487abb;
+}
+
+.busqueda  {
+    position: relative;
+    padding: 0;
+    display: inline-block ;
+  }
+.busqueda input{
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border:2px solid #d1faf4 ;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+
+.busqueda input:hover{
+    background-color: #021222;
+    color: #fff;
+}
+
+.toggle {
+    color: #d1faf4;
+    margin-right: 20px;
+    font-size: 30px;
+    transform: rotate(90deg);
+    cursor: pointer;
+    transition: .3s;
+    display: none;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+
+.imgen img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    .toggle {
+        display: inline-block;
+    }
+
+    .links {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background: #021222;
+        text-align: center;
+        overflow: hidden;
+        height: calc(100vh - 80px);
+        width: 100%;
+        z-index: -1;
+        top: -100vh;
+        transition: .5s;
+    }
+
+    .active {
+        top: 80px;
+    }
+
+    .links .link:hover {
+        background: #051c38;
+    }
+
+    .busqueda{
+        justify-content: center;
+    }
+    .busqueda input{
+        width: 150px;
+        margin-right: 40px;
+        justify-content: center;
+    }       
+}
+
+@media screen and (max-width: 500px){
+    
+    .toggle {
+        display: inline-block;
+    }
+
+    .active {
+        top: 80px;
+    }
+    
+    .container-logo h2 {
+        color: #95bdd8;
+        font-weight: 300;
+        font-size: 25px;
+        letter-spacing: 2px;
+        font-family: 'Rubik Iso', cursive;
+    }
+    
+    .container-logo h2 span {
+        color: #0590ec;
+        font-weight: 700;
+        font-family: 'Rubik Iso', cursive;
+    }
+
+    .busqueda{
+        justify-content: center;
+    }
+    .busqueda input{
+        width: 150px;
+        margin-right: 40px;
+        justify-content: center;
+    }       
+}
