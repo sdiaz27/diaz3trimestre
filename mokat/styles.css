@@ -269,24 +269,7 @@ section {
         justify-content: center;
     }      
     
-    .imgen{
-        width: 100px;
-        height: 100px;
-        margin: 0;
-        border:3px solid #00CCFF;
-        border-radius: 50%;
-        position: relative;
-        left: 10px;
-        z-index: -2;
 
-    }
-    .imgen img{
-        position: absolute;
-        width: 120px;
-        height: 120px;
-        left: -13PX;
-        top: -13px;
-    }
 }
 
 @media screen and (max-width: 500px){
