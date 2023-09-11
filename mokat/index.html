@@ -4,30 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sdaiz27 frontend </title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <div class="container-logo">
-                <h2><span>Front</span>end<span>.</span></h2>
+    <header id="proyecto">
+        <nav>
+            <div class="container">
+                <div class="container-logo">
+                    <h2><span>Front</span>end<span>.</span></h2>
+                </div>
+                <ul class="links ">
+                    <li class="link"><a href="index.html">Inicio</a></li>
+                    <li class="link"><a href="#proyecto">Proyectos</a></li>
+                    <li class="link"><a href="#mision">Mision</a></li>
+                    <li class="link"><a href="#vision">Vision</a></li>
+                    <li class="link"><a href="#contactos">Contactos</a></li>
+                </ul>
+                <li class="busqueda"><input type="texte" placeholder="Buscar" required>
+                <div class="toggle">
+                    |||
+                </div>
             </div>
-
-            <ul class="links ">
-                <li class="link"><a href="#">Inicio</a></li>
-                <li class="link"><a href="#">Proyectos</a></li>
-                <li class="link"><a href="#">Mision</a></li>
-                <li class="link"><a href="#">Vision</a></li>
-                <li class="link"><a href="#">Contacto</a></li>
-            </ul>
-            <li class="busqueda"><input type="texte" placeholder="Buscar" required>
-            <div class="toggle">
-                |||
-            </div>
-        </div>
-    </nav>
-
+        </nav>
+    </header>    
     <main>
         <section>
             <div class="imgen">
@@ -35,7 +35,7 @@
             </div>    
         </section>
 
-        <section class="container">
+        <section class="contenedor" >
             <div class="box">
                 <span style="--i:1;"><img src="/mokat/img/i1.webp" alt=""></span>
                 <span style="--i:2;"><img src="/mokat/img/i2.webp" alt=""></span>
@@ -48,12 +48,23 @@
             </div>    
         </section>
 
-        <section class="boxmv">
-
-        </section>
+        <div class="boxm" id="mision">
+            <h3 class="emboss-txt">MISION</h3>
+            <p>aprender el desarrollo en la wed, centrado en 
+                <br> ux and frontend. Relacionarme con otras herramientas 
+                <br> que apoyen mi trabajo y con esto poder brindar un 
+                <br> mejor desarrollo.</p>
+        </div>
+        <div class="boxv" id="vision">
+            <h3 class="emboss-txt">VISION</h3>
+            <p>Realizar la ingenieria en programacion en un periodo de 
+                <br> timpo de 3 años apartir del 2025 y durante este timpo 
+                <br> tomar mas conocimientos y ponerlos en practica para 
+                <br> brindar mas obcciones de desarrollo wed.</p>
+        </div>
     </main>
     
-
+    
     <script src="main.js"></script>
 </body>
 </html>
