@@ -72,7 +72,7 @@ nav {
     position: relative;
     padding: 0;
     display: inline-block ;
-  }
+}
 .busqueda input{
     font-size: 18px;
     color: black;
@@ -99,6 +99,12 @@ nav {
 
 .rotate {
     transform: rotate(180deg);
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 section {
@@ -142,8 +148,12 @@ section {
         transform: perspective(1000px) rotatey(0deg);
     }
     100%{
-        transform: perspective(1000px) rotatey(250deg);
-    }
+        transform: perspective(1000px) rotatey(360deg);
+        -webkit-transform: perspective(1000px) rotatey(360deg);
+        -moz-transform: perspective(1000px) rotatey(360deg);
+        -ms-transform: perspective(1000px) rotatey(360deg);
+        -o-transform: perspective(1000px) rotatey(360deg);
+}
 }
 
 .box span {
@@ -156,6 +166,10 @@ section {
     transform-style: preserve-3d;
     transform: rotateY(calc(var(--i)* 45deg)) translatez(400px);
     -webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#0004) ;
+    -webkit-transform: rotateY(calc(var(--i)* 45deg)) translatez(400px);
+    -moz-transform: rotateY(calc(var(--i)* 45deg)) translatez(400px);
+    -ms-transform: rotateY(calc(var(--i)* 45deg)) translatez(400px);
+    -o-transform: rotateY(calc(var(--i)* 45deg)) translatez(400px);
 }
 
 .box span img{
@@ -165,6 +179,11 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+boxmv{
+    background: #fff;
+    height: 5000px;
 }
 
 
