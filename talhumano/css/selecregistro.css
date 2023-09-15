@@ -7,11 +7,14 @@
 
 body{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items:center;
+  flex-direction: column;
   min-height: 900px;
   background-size: cover;
   background-image: url(/talhumano/img/blue.png) ;
+  overflow-x: hidden;
 }
 
 header{
@@ -19,7 +22,7 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  height: 150px;
+  height: 110px;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -34,7 +37,7 @@ header{
 }
 
 .logo{
-  width: 150px;
+  width: 140px;
 }
 
 .navigation a{
@@ -108,12 +111,14 @@ header{
   background-color:rgb(29,4,97) ;
   color: white;
 }
+/*formulario*/
 .glass{
   width: 650px;
   height: 500px;
   padding: 5px;
   border-radius: 5%;
-  background: #fafafa40;
+  background: rgb(9,125,238);
+background: linear-gradient(90deg, rgba(9,125,238,0.7455357142857143) 0%, rgba(245,179,8,0.6530987394957983) 50%, rgba(245,242,8,0.6699054621848739) 100%);
   backdrop-filter: blue(0.4rem);
   -webkit-backdrop-filter: blur(0.4rem);
   -webkit-border-radius: 5%;
@@ -149,9 +154,41 @@ header{
   width: 50%;
   justify-items: center;
   background-color: rgb(45, 175, 245);
+  border-radius: 30px;
 }
 
 .btn:hover{
   background-color: rgb(29,4,97);
   color: aliceblue;
+}
+
+/*footer*/
+
+footer{
+  position: relative;
+  margin: 30px;
+  bottom: -200px;  
+}
+.buttons {
+  min-width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
 }

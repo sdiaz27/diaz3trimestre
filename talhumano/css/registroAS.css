@@ -7,6 +7,7 @@
 
 body{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items:center;
   min-height: 100vh;
@@ -241,4 +242,33 @@ header{
 
 .login-register p a:hover {
   text-decoration: underline;
+}
+
+footer{
+  position: relative;
+  margin: 30px;
+  bottom: -200px;  
+}
+.buttons {
+  min-width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
 }
