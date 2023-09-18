@@ -7,7 +7,8 @@
 	}
 	body{
 		background: url(https://www.xtrafondos.com/wallpapers/montanas-con-nieve-en-el-bosque-3934.jpg);
-		background-size: 100vw 100vh;
+		height: 100% ;
+		width: 100%;
 		background-repeat: no-repeat;
 	}
 	.capa{
@@ -18,12 +19,14 @@
 		z-index: -1;
 		top: 0;left: 0;
 	}
-	/*Estilos para el encabezado*/
+	
+
 	.header{
 		width: 100%;
 		height: 100px;
 		position: fixed;
 		top: 0;left: 0;
+		z-index: 1;
 	}
 	.container{
 		width: 90%;
@@ -47,7 +50,7 @@
 	}
 	.container .menu{
 		position: relative;
-        left: 1150px;
+        left: 1000px;
 		line-height: 100px;
 	}
 	.container .menu a{
@@ -65,7 +68,7 @@
 		border-bottom: 2px solid #c7c7c7;
 		padding-bottom: 5px;
 	}
-	/*Fin de Estilos para el encabezado*/
+	
 
 	/*Menù lateral*/
 	#btn-menu{
@@ -80,6 +83,7 @@
 		transition: all 500ms ease;
 		opacity: 0;
 		visibility: hidden;
+		z-index: 3;
 	}
 	#btn-menu:checked ~ .container-menu{
 		opacity: 1;
@@ -121,4 +125,133 @@
 		font-size: 18px;
 	}
 
+	/*mian section vertical*/
+	main{
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	.section{
+		height: 100%;
+		position: fixed;
+	}
+
+	.vertical{
+		width: 30px;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		position: relative;
+		z-index: -2;
+	}
+
+	.user{
+		min-width: 45px;
+		justify-content: space-around;
+		position: absolute;
+		top: 85px;
+		left: 20%;
+	}
+
+	.user a{	
+		text-decoration: none;
+		font-size: 28px;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		background: #314652;
+		color: #f1f1f1;
+		border-radius: 50%;
+		box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+		transition: all .4s ease-in-out;
+	}
+
+	.user :hover{
+		transform: scale(1.2);
+	}
+
+	.icon{
+		min-width: 45px;
+		justify-content: space-around;
+		position: absolute;
+		top: 300px;
+		left: 20%;
+	}
+
+	.icon a {
+		text-decoration: none;
+		font-size: 28px;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		margin: 3px;
+		background: #314652;
+		color: #f1f1f1;
+		border-radius: 50%;
+		box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+		transition: all .4s ease-in-out;
+	}
+
+	.icon a:hover{
+		transform: scale(1.2);
+		color: #D4AF37;
+	}
+
+	/*main*/
+	.centro{
+		height: 100%;
+		width: 100%;
+		position: relative;
+		z-index: -1;
+	}
+	.imagen{
+		position: absolute;
+		left: 43%;
+		top: 0px;
+		height: 450px;
+	}
+	.busqueda{
+		position:absolute;
+		left: 37%;
+		top: 400px;
+	}
+
+	.busqueda input{
+		width: 500px;
+		height: 25px;
+		border-radius: 30px;
+	}
+	/*footer*/
+	footer{
+		position: relative;
+		margin: 30px;
+		top: 2000px;  
+	  }
+	  .buttons {
+		min-width: 400px;
+		display: flex;
+		justify-content: space-around;
+	  }
+	  
+	  .buttons a {
+		text-decoration: none;
+		font-size: 28px;
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		text-align: center;
+		background: #314652;
+		color: #f1f1f1;
+		border-radius: 50%;
+		box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+		transition: all .4s ease-in-out;
+	  }
+	  
+	  .buttons a:hover {
+		transform: scale(1.2);
+	  }
 
